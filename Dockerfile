@@ -8,4 +8,4 @@ RUN npm install
 RUN chown -R node:node .
 USER node
 
-CMD npm run dev
+CMD npm run start

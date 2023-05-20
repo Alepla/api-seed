@@ -8,6 +8,9 @@ start:
 stop:
 	docker compose stop
 
+down:
+	docker compose down
+
 format:
 	docker compose run --rm api-seed npm run format 
 

@@ -5,5 +5,7 @@
   make start
 ### Stop serving the aplication
   make stop
+### Remove the docker container
+  make down
 ### Exec always before commit
   make before-commit
